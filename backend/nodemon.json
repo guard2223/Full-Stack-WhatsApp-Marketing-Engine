@@ -1,0 +1,6 @@
+{
+  "watch": ["src"],
+  "ext": "ts",
+  "ignore": ["sessions/*", "sessions", "node_modules/*"],
+  "exec": "ts-node src/index.ts"
+}

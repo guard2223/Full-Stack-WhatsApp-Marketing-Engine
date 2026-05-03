@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 98%;
+
+    --card: 240 5% 6%;
+    --card-foreground: 0 0% 98%;
+ 
+    --primary: 210 100% 50%; /* Apple Blue */
+    --primary-foreground: 0 0% 100%;
+ 
+    --secondary: 240 5% 15%;
+    --secondary-foreground: 0 0% 98%;
+ 
+    --accent: 210 100% 50%;
+    --accent-foreground: 0 0% 98%;
+ 
+    --border: 240 5% 15%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --ring: 210 100% 50%;
+    --radius: 1.25rem;
+
+    --sidebar-bg: 0 0% 2%;
+    --sidebar-text: 240 5% 85%;
+  }
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border) / 0.5);
+  }
+  body {
+    background-color: #000;
+    color: hsl(var(--foreground));
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+.glass {
+  background: rgba(28, 28, 30, 0.7);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
