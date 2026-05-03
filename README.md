@@ -82,4 +82,4 @@ For licensing, inquiries, or custom feature requests, feel free to reach out:
 
 ---
 
-### 👨‍💻 Developed with ❤️ by Antigravity for Saden WA Suite
+### 👨‍💻 Developed with ❤️ by Fikha for Saden WA Suite
